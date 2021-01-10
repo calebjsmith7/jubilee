@@ -1,33 +1,180 @@
 .App {
   text-align: center;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
 }
+#top {
+  background-color: rgb(34, 34, 34);
+  height: 46%;
+  width: 100%;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav {
+  height: 16%;
+  background-color: rgb(43, 42, 42);
+}
+.space {
+  height: 14%;
+}
+#jfc {
+  height: 43%;
+  width: 27%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url("./images/logo.png");
+  margin-left: auto;
+  margin-right: auto;
+}
+.iconRow {
+  height: 8vh;
+}
+.icon {
+  height: 6.7vh;
+  margin: .3vw;
+}
+.middle {
+  background-color: rgb(34, 34, 34);
+  height: 80%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.video {
+  position: relative;
+  
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
+  font-size: 8vh;
+  font-family: 'Montserrat', "Work Sans", 'sans-serif';
+  font-weight: bold;
+}
+.overlay2 {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:rgb(43, 42, 42);
+  width: 100%;
+  height: 13vh;
+  color: white;
+  font-size: larger;
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: bold;
+  text-align: center;
+}
+.bottom {
+  position: absolute;
+  top: 211%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:white;
+  width: 100%;
+  height: 150vh;
+}
+.legacy {
+  color: white;
+  font-size: larger;
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(3, 3, 95);
+  width: 100%;
+  height: 13vh;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+a {
+  text-decoration: none !important;
+}
+.box1 {
+  display: flex;
+  width: 100vw;
+  align-content: space-evenly;
+  text-align: center;
+}
+.box2 {
+  display: flex;
+  width: 100vw;
+  align-content: space-evenly;
+  text-align: center;
+}
+.item {
+  background: gray;
+  width: 25vw;
+  height: 50vh;
+  margin: 10px;
+}
+.pics {
+  height: 100%;
+  width: 100%;
+}
+.line1 {
+  display: flex;
+  width: 100vw;
+  align-content: space-between;
+  text-align: center;
+}
+.line2 {
+  display: flex;
+  width: 100vw;
+  align-content: space-between;
+  text-align: center;
+}
+.line3 {
+  display: flex;
+  width: 100vw;
+  align-content: space-between;
+  text-align: center;
+}
+.line4 {
+  display: flex;
+  width: 100vw;
+  align-content: space-between;
+  text-align: center;
+}
+.line5 {
+  display: flex;
+  width: 100vw;
+  align-content: space-between;
+  text-align: center;
+}
+.line6 {
+  display: flex;
+  width: 100vw;
+  align-content: space-between;
+  text-align: center;
+}
+.line7 {
+  display: flex;
+  width: 100vw;
+  align-content: space-between;
+  text-align: center;
+}
+.cols {
+  background-color: rgb(233, 233, 233);
+  width: 50vw;
+  height: 5vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-family: 'Work Sans', 'sans-serif';
+  color: black;
+  font-weight: bolder;
+}
+.cw {
+  font-size: 14px;
+}
+.line {
+  border: 5px solid black;
+  height: 1px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
