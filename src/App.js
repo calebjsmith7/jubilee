@@ -26,7 +26,17 @@ class App extends Component {
     return (
       <div className="App">
         <div id="top">
-          <div className="nav"></div>
+          <div className="nav">
+          <div className="sp"></div>
+            <div className="n">LIVE</div>
+            <div className="n">ON DEMAND</div>
+            <div className="n">GIVE</div>
+            <div className="n">EVENTS</div>
+            <div className="n">KIDS</div>
+            <div className="n">YOUTH</div>
+            <div className="n">ADULTS</div>
+            <div className="sp"></div>
+          </div>
           <div className="space"></div>
           <div id="jfc"></div>
           <div className="iconRow">
