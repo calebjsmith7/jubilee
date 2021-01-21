@@ -1,43 +1,37 @@
 .App {
   text-align: center;
   background-color: white;
-  height: 100vh;
   width: 100vw;
 }
 #top {
   background-color: rgb(34, 34, 34);
-  height: 46%;
+  height: 40vh;
+  max-height: 45vh;
   width: 100%;
-  text-align:center;
-
-}
-.nav {
-  height: 16%;
-  width: 100%;
-  background-color: rgb(43, 42, 42);
-  color: white;
-  display: flex;
-  align-content: space-between;
   text-align: center;
-  margin-bottom: -10px;
-  align-content: space-around;
-  padding-top: 20px;
-  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .n {
-  margin: 5px;
-  width: 10vw;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+.navv {
+  background-color: rgb(46, 46, 46);
+}
+.l {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .sp {
   margin: 5px;
   width: 30vw;
   
 }
 .space {
-  height: 14%;
+  height: 15%;
 }
 #jfc {
   height: 43%;
@@ -48,13 +42,40 @@
   background-image: url("./images/logo.png");
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3vh;
+}
+.iconz {
+  width: 100;
+  height: 1vh;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 4vh;
+  background-image: url(images/header-line.png); 
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: -3%;
+  padding-bottom: 3%;
+  padding-left: auto;
+  padding-right: auto;
 }
 .iconRow {
-  height: 8vh;
+  max-height: 15vh;
+  max-width: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: auto;
+  background-color:rgb(34, 34, 34);
+
 }
 .icon {
-  height: 6.7vh;
-  margin: .3vw;
+  width: 3vw;
+  height: auto;
+  margin: .25vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: space-between;
 }
 .middle {
   background-color: rgb(34, 34, 34);
@@ -69,7 +90,7 @@
 }
 .overlay {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -77,40 +98,63 @@
   font-family: 'Montserrat', "Work Sans", 'sans-serif';
   font-weight: bold;
 }
-.overlay2 {
-  position: absolute;
-  top: 110%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color:rgb(43, 42, 42);
-  width: 100%;
-  height: 13vh;
+.overlay:hover {
   color: white;
-  font-size: larger;
+}
+
+
+.overlay2 {
+  background-color:rgb(43, 42, 42);
+  color: white;
+  font-size: 2.45vh;
   font-family: 'Work Sans', 'sans-serif';
   font-weight: bold;
   text-align: center;
+  width: 100%;
+  height: 40%;
+  margin-bottom: 1%;
+  line-height: 5%;
+  z-index: 2;
+  
+}
+.o2text {
+  width: 30%;
+  max-width: 30%;
+  text-align: center;
+  margin: auto;
+  line-height: normal;
+  height: 5vh;
+  z-index: 1;
 }
 .bottom {
   position: absolute;
-  top: 211%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color:white;
   width: 100%;
-  height: 150vh;
+  height: 26vh;
+  z-index: 1;
 }
+.lower {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  margin-top: 1%;
+}
+
 .legacy {
   color: white;
-  font-size: larger;
+  font-size: 2.45vh;
   font-family: 'Work Sans', 'sans-serif';
   font-weight: bold;
   text-align: center;
   background-color: rgb(3, 3, 95);
   width: 100%;
-  height: 13vh;
-  margin-top: 5vh;
-  margin-bottom: 2vh;
+  height: 40%;
+  margin-bottom: 2%;
+  line-height: 5%;
+  z-index: 2;
 }
 a {
   text-decoration: none !important;
@@ -118,20 +162,17 @@ a {
 .box1 {
   display: flex;
   width: 100vw;
-  align-content: space-evenly;
+  align-content: space-between;
   text-align: center;
-}
-.box2 {
-  display: flex;
-  width: 100vw;
-  align-content: space-evenly;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .item {
   background: gray;
-  width: 25vw;
-  height: 50vh;
-  margin: 10px;
+  width: 23%;
+  min-width: 230px;
+  max-width: 50%;
+  margin: 1%;
 }
 .pics {
   height: 100%;
@@ -142,61 +183,128 @@ a {
   width: 100vw;
   align-content: space-between;
   text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.line2 {
-  display: flex;
-  width: 100vw;
-  align-content: space-between;
-  text-align: center;
-}
-.line3 {
-  display: flex;
-  width: 100vw;
-  align-content: space-between;
-  text-align: center;
-}
-.line4 {
-  display: flex;
-  width: 100vw;
-  align-content: space-between;
-  text-align: center;
-}
-.line5 {
-  display: flex;
-  width: 100vw;
-  align-content: space-between;
-  text-align: center;
-}
-.line6 {
-  display: flex;
-  width: 100vw;
-  align-content: space-between;
-  text-align: center;
-}
-.line7 {
-  display: flex;
-  width: 100vw;
-  align-content: space-between;
-  text-align: center;
-}
+
 .cols {
   background-color: rgb(233, 233, 233);
-  width: 50vw;
-  height: 5vh;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 6px;
+  width: 690px;
+  min-width: 320px;
+  max-width: 98%;
+  height: 6vh;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: .5%;
   text-align: center;
   font-family: 'Work Sans', 'sans-serif';
   color: black;
   font-weight: bolder;
+  font-size: 2.45vh;
+  line-height: 6vh;
 }
 .cw {
   font-size: 14px;
+  width: 90%;
+  min-width: 320px;
+  max-width: 90%;
+  margin: auto;
 }
 .line {
   border: 5px solid black;
   height: 1px;
   width: 100%;
 }
+.give {
+  height: 200vh;
+  background-size: cover;
+  padding-top: 3%;
+  background-image: url(./images/bwbg.jpg);
+}
+
+.givectr{
+  width: 70%;
+  background-color: white;
+  height: 180vh;
+  margin: auto;
+  backdrop-filter: blur(5px);
+}
+.giveimg {
+  width: 70%;
+  max-width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.g1 {
+  font-size: 4vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+.p1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: 'Montserrat', sans-serif;
+}
+.g2 {
+  margin-top: 3%;
+  font-size: 4vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3%;
+  margin-top: 5%;
+}
+.button-block {
+  display: inline-flex;
+  width: 32%;
+}
+.unlink {
+  text-decoration: none;
+  color: white;
+}
+.unlink:hover {
+  color: white;
+}
+.unlink2 {
+  text-decoration: none;
+  color: black;
+}
+.unlink2:hover {
+  color: black;
+}
+.kidsmain {
+  width: 100%;
+  height: auto;
+}
+.kbox {
+  display: inline-flex;
+  height: 90%;
+  width: 45%;
+  margin: 1%;
+}
+#littleones {
+  background-image: url(./images/littleones.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 10vw;
+
+}
+#jfckids {
+  background-image: url(./images/jfckids.png);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: 11.5vw 10vh;
+}
+.kwrap {
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+
+
 
