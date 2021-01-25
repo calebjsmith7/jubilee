@@ -304,7 +304,37 @@ a {
   justify-content: center;
   margin-top: 5%;
 }
-
+.livePage {
+  background-color:rgb(34, 34, 34);
+  width: 100%;
+  height: 97vh;
+}
+.test {
+  display: inline-flex;
+  font-size: 11vh;
+  margin-top: -2%;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+#timer {
+  width: 100%;
+  background-color:white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  height: 40vh;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  margin-bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+#liveTitle {
+  font-size: 9vh;
+}
+.timerInfo {
+  margin: -2vh;
+  padding: .75vh;
+}
 
 
 
