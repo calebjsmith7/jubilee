@@ -8,6 +8,7 @@ import e from '../images/e.png';
 import f from '../images/f.png';
 import g from '../images/g.png';
 import h from '../images/h.png';
+import jfcvid from '../images/video-background-2020.mp4';
 
 
 class Home extends Component {
@@ -19,7 +20,7 @@ class Home extends Component {
       <div className="App">
         <div className="middle">
         <video autoPlay={true} autostart="true" loop={true} muted={true} preload="true" id="background" width="100%" className="video">
-          <source src="https://jfc.org/videos/video-background-2020.mp4" type="video/mp4" id="vid"></source>
+          <source src={jfcvid} type="video/mp4" id="vid"></source>
         </video>
         <a href="/live" className="overlay">WATCH LIVE</a>
         <div className="bottom">

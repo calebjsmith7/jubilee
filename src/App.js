@@ -11,6 +11,7 @@ import Events from './components/events';
 import Kids from './components/kids';
 import Adults from './components/adults';
 import Lowermenu from './components/lowermenu';
+import Stream from './components/stream';
 
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
               <Route exact path='/events' component={Events} />
               <Route exact path='/kids' component={Kids} />
               <Route exact path='/adults' component={Adults} />
+              <Route exact path='/stream' component={Stream} />
             </Switch>
           </div>
           <Lowermenu />

@@ -36,7 +36,7 @@ class Live extends Component {
         } else if(nowTime.toString().substring(0,3) == 'Sun' && 11 > parseInt(nowTime.toString().substring(16,18)) > 9) {
             timer.setHours(11,0,0,0);
         } else if(nowTime.toString().substring(0,3) == 'Sun' && parseInt(nowTime.toString().substring(16,18)) > 11) {
-            timer.setHours(136,0,0,0);
+            timer.setHours(136,0,0,0); 
         }
         if(nowTime.toString().substring(0,3) == 'Sat' && parseInt(nowTime.toString().substring(16,18)) < 16 ) {
             timer.setHours(16,0,0,0);
