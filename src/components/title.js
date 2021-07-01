@@ -11,12 +11,14 @@ class Title extends Component {
       super(props);
     }
     render() {
+
+
       return (
 
 <div className="App">
     <div id="top">
     <div className="space"></div>
-          <a href="./home"><div id="jfc"></div></a>
+          <a href="/"><div id="jfc"></div></a>
           <div className="iconz">
         <div className="iconRow">
             <a href="./give"><img src={give} className="icon"></img></a>

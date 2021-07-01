@@ -19,7 +19,7 @@ class Home extends Component {
     return (
       <div className="App">
         <div className="middle">
-        <video autoPlay={true} autostart="true" loop={true} muted={true} preload="true" id="background" width="100%" className="video">
+        <video autoPlay={true} playsInline autostart="true" loop={true} muted={true} preload="true" id="background" width="100%" className="video">
           <source src={jfcvid} type="video/mp4" id="vid"></source>
         </video>
         <a href="/live" className="overlay">WATCH LIVE</a>
@@ -28,6 +28,7 @@ class Home extends Component {
           <div className="legacy"><span className="o2text"><br/>BUILDING A LEGACY FOR TOMORROW<br/>CLICK HERE FOR MORE INFORMATION</span></div>
         </div>
         </div>
+        <div className="mobilegreyspace"></div>
         <div className="lower">
           <div className="box1">
             <div className="item"><img src={a} className="pics"></img></div>
